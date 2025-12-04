@@ -6,54 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday card</title>
     <link rel="stylesheet" href="c.css">
+
+    <style>
+        /* "Click on card" text style */
+        .click-text {
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 20px;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff66ff;
+            animation: glow 1.5s infinite;
+        }
+
+        @keyframes glow {
+            0% {
+                opacity: 0.4;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0.4;
+            }
+        }
+    </style>
 </head>
 
+
 <body>
+
+    <!-- CLICK ON CARD TEXT -->
+    <p class="click-text">Click on card</p>
+
     <img src="ZUiY.gif" alt="stars" class="star">
     <img src="5l03.gif" alt="ballon" class="ballon">
+
     <div class="container">
         <div class="birthdayCard">
+
             <div class="cardFront">
                 <div class="front-text">
                     <h3 class="happy">HAPPY</h3>
                     <h2 class="bday">BIRTHDAY</h2>
                     <h3 class="toyou">to you!</h3>
                 </div>
+
                 <div class="wrap-deco">
                     <div class="decorations"></div>
                     <div class="decorationsTwo"></div>
                 </div>
+
                 <div class="wrap-decoTwo">
                     <div class="decorations"></div>
                     <div class="decorationsThree"></div>
                 </div>
+
                 <div class="plate">
                     <div class="cake"></div>
                     <div class="flame"></div>
                 </div>
             </div>
+
             <div class="cardInside">
                 <div class="img">
                     <img src="5.gif" alt="Brotherpic" class="bdyboy">
                     <img src="6ob.gif" alt="confetti" class="confetti">
                 </div>
+
                 <div class="inside-text">
                     <h3 class="happy">HAPPY</h3>
                     <h2 class="bday">BIRTHDAY</h2>
                     <h3 class="toyou">to you!</h3>
                 </div>
+
                 <div class="wishes">
                     <p>Dear Fatima,</p>
-                    <p>Happy birthday!! lots of love and laughter! May all of your
-                        birthday
-                        wishes come true.</p>
-                        <p class="name">~ Your Uzair</p>
-                    </div>
+                    <p>Happy birthday!! lots of love and laughter! May all of your birthday wishes come true.</p>
+                    <p class="name">~ Your Uzair</p>
+                </div>
             </div>
+
         </div>
     </div>
 
     <img src="4SHX.gif" alt="cat" class="cat">
+
 </body>
 
 </html>
